@@ -4,16 +4,11 @@ Official Homebrew tap for [Multron Community](https://github.com/Multron-Communi
 
 ## Installation
 
-Install **Multron Download Manager** directly with a single command:
+Run the following commands in your terminal to tap, trust, and install **Multron Download Manager**:
 
 ```bash
-brew install --cask Multron-Community/tap/multron-download-manager
-```
-
-Or tap the repository first and install:
-
-```bash
-brew tap Multron-Community/tap
+brew tap multron-community/tap
+brew trust multron-community/tap
 brew install --cask multron-download-manager
 ```
 
